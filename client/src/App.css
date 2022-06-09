@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+}
+
+*:focus {
+  outline: none;
+}
+
+.add {
+  top: 30%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 400px;
+  height: 44px;
+  background-color: rgb(244, 222, 255);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+button {
+  width: 100px;
+  height: 45px;
+  border: none;
+  margin-left: 8px;
+
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+}
+
+.sorti-head {
+  font-size: 100px;
+  color: #511f77;
+}
+
+p {
+  font-size: 20px;
+  color: #8c56b6;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.aditya {
+  font: #511f77;
+  text-decoration: none;
+}
+
+button {
+  padding: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid #9000ff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.generated {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+
+button:hover {
+  background-color: #9000ff;
+  box-shadow: 0px 15px 20px rgba(144, 46, 229, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+button:active {
+  transform: translateY(8px);
+}
+
+.genlink {
+  border-radius: 10px;
+}
+
+#copy {
+  margin-top: 20px;
+  height: 30px;
+  width: 60px;
+}
